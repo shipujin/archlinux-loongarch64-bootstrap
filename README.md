@@ -4,7 +4,9 @@ Porting distro from scratch is too painful, so arch enthusiasts can focus on the
 
 #### tag:0.3 archlinux-bootstrap-2022.04.15-loongarch64
 
-* Fixed some software path issues
+1. Upgrade using the latest basic software version (github.com/loongson: gcc/binutils/glibc)
+2. Add basic tools: meson, ninja, cmake
+3. Add the preinstalled software list file pkglist.loongarch64.txt
 
 | package | branch | commit hash | url |
 | ---- | ---- | ---- | ---- |
